@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Liên hệ | DSK HN</title>
+    <meta name="description" content="Liên hệ Công ty TNHH DSK HN để nhận báo giá vật tư cơ khí khuôn ép viên, lô con lăn theo máy mùn cưa gỗ." />
+    <link rel="stylesheet" href="styles.css?v=7" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="index.html">Trang chủ</a>
+        <a href="gioi-thieu.html">Giới thiệu</a>
+        <a href="san-pham.html">Sản phẩm</a>
+        <a href="bang-gia.html">Bảng giá</a>
+        <a href="tin-tuc.html">Tin tức</a>
+        <a href="lien-he.html">Liên hệ</a>
+        <a href="noi-bo.html" id="nav-internal">Nội bộ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <h1>Yêu Cầu Báo Giá & Liên Hệ</h1>
+        <p>Gửi yêu cầu báo giá nhanh hoặc liên hệ với đội ngũ kỹ thuật DSK HN</p>
+      </section>
+
+      <section class="section quote-section" id="bao-gia">
+        <div class="quote-layout">
+          <div>
+            <p class="eyebrow">Yêu cầu báo giá</p>
+            <h2>Chọn sản phẩm cần tư vấn</h2>
+            <p>
+              Khách hàng có thể chọn các sản phẩm từ trang <a href="san-pham.html" style="color:var(--copper); font-weight:700; text-decoration: underline;">Sản phẩm</a>, ghi thêm dòng máy, kích thước hoặc ảnh mẫu rồi gửi cho DSK HN để xác nhận giá, tình trạng hàng và thời gian giao dự kiến.
+            </p>
+            <form class="quote-form" id="quoteForm">
+              <label>
+                <span>Họ tên</span>
+                <input name="name" type="text" placeholder="Nguyễn Văn A" required />
+              </label>
+              <label>
+                <span>Số điện thoại/Zalo</span>
+                <input name="phone" type="tel" placeholder="09xx xxx xxx" required />
+              </label>
+              <label>
+                <span>Nội dung cần báo giá</span>
+                <textarea name="message" rows="5" placeholder="Dòng máy, kích thước, số lượng, yêu cầu vật liệu..."></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Tạo nội dung gửi</button>
+            </form>
+          </div>
+
+          <aside class="quote-panel" aria-labelledby="quote-title">
+            <div class="quote-panel-header">
+              <h3 id="quote-title">Danh sách báo giá</h3>
+              <button class="text-button" type="button" id="clearQuote">Xóa</button>
+            </div>
+            <ul class="quote-list" id="quoteList"></ul>
+            <div class="quote-total">
+              <span>Tạm tính theo giá đặt trước</span>
+              <strong id="quoteTotal">0đ</strong>
+            </div>
+            <textarea id="quoteOutput" readonly rows="7" aria-label="Nội dung báo giá đã tạo"></textarea>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="lien-he" style="border-top:1px solid var(--line);">
+        <div class="contact-copy">
+          <p class="eyebrow">Hỗ trợ khách hàng</p>
+          <h2>DSK HN nhận tư vấn vật tư theo dòng máy</h2>
+          <p>
+            Gửi tên sản phẩm, ảnh mẫu, bản vẽ kích thước hoặc thông số máy để được xác nhận giá, nguồn hàng và điều kiện đặt trước ưu đãi tốt nhất.
+          </p>
+        </div>
+        <div class="contact-card">
+          <div>
+            <span>Công ty</span>
+            <strong>Công ty TNHH DSK HN</strong>
+          </div>
+          <div>
+            <span>Điện thoại/Zalo</span>
+            <strong>0987 654 321</strong>
+          </div>
+          <div>
+            <span>Email</span>
+            <strong>contact@dskhn.com.vn</strong>
+          </div>
+          <div>
+            <span>Địa chỉ văn phòng / Kho hàng</span>
+            <strong>Khu Công nghiệp Hà Nội, Gia Lâm, Hà Nội</strong>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="tel:+84987654321">Gọi ngay</a>
+            <a class="btn btn-secondary" href="https://zalo.me/0987654321" target="_blank" rel="noopener">Chat Zalo</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>© 2026 Công ty TNHH DSK HN</strong>
+        <p style="margin: 4px 0 0; font-size: 12px; color: rgba(255, 255, 255, 0.6);">
+          Vật tư thay thế máy ép viên nén gỗ hàng đầu Việt Nam
+        </p>
+      </div>
+      <div style="display: flex; gap: 20px; font-size: 13px; flex-wrap: wrap;">
+        <a href="gioi-thieu.html" style="color: rgba(255, 255, 255, 0.8);">Giới thiệu</a>
+        <a href="san-pham.html" style="color: rgba(255, 255, 255, 0.8);">Sản phẩm</a>
+        <a href="bang-gia.html" style="color: rgba(255, 255, 255, 0.8);">Bảng giá</a>
+        <a href="tin-tuc.html" style="color: rgba(255, 255, 255, 0.8);">Tin tức</a>
+        <a href="lien-he.html" style="color: rgba(255, 255, 255, 0.8);">Liên hệ</a>
+      </div>
+    </footer>
+
+    <script src="script.js?v=7"></script>
+  </body>
+</html>
