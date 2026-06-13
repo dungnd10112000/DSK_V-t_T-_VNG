@@ -2,7 +2,7 @@ const products = [
   {
     id: "khuon-550-160-inox",
     category: "Khuôn ép viên",
-    name: "Khuôn 550",
+    name: "Khuôn 550 - 5 hàng lỗ",
     code: "环模 1.6.0 - 550",
     material: "Thép không rỉ",
     spec: "Dòng 550, 5 hàng lỗ, tỉ số nén 1.6.0",
@@ -13,7 +13,7 @@ const products = [
   {
     id: "khuon-550-160-hop-kim",
     category: "Khuôn ép viên",
-    name: "Khuôn 550",
+    name: "Khuôn 550 - 5 hàng lỗ",
     code: "环模1.6.0 - 550",
     material: "Thép hợp kim",
     spec: "Dòng 550, 5 hàng lỗ, tỉ số nén 1.6.0",
@@ -24,7 +24,7 @@ const products = [
   {
     id: "khuon-550-145-hop-kim",
     category: "Khuôn ép viên",
-    name: "Khuôn 550",
+    name: "Khuôn 550 - 5 hàng lỗ",
     code: "环模 1.4.5 - 550",
     material: "Thép hợp kim",
     spec: "Dòng 550, 5 hàng lỗ, tỉ số nén 1.4.5",
@@ -35,7 +35,7 @@ const products = [
   {
     id: "khuon-550-150-hop-kim",
     category: "Khuôn ép viên",
-    name: "Khuôn 550",
+    name: "Khuôn 550 - 5 hàng lỗ",
     code: "环模 1.5.0 - 550",
     material: "Thép hợp kim",
     spec: "Dòng 550, 5 hàng lỗ, tỉ số nén 1.5.0",
@@ -46,7 +46,7 @@ const products = [
   {
     id: "khuon-560-170-hop-kim",
     category: "Khuôn ép viên",
-    name: "Khuôn 560",
+    name: "Khuôn 560 - 6 hàng lỗ",
     code: "环模 1.7.0 - 560 - 6排孔",
     material: "Thép hợp kim",
     spec: "Dòng 560, 6 hàng lỗ, tỉ số nén 1.7.0",
@@ -68,7 +68,7 @@ const products = [
   {
     id: "lo-550-5-thep-han",
     category: "Lô con lăn",
-    name: "Lô 550",
+    name: "Lô con lăn 550",
     code: "Roller Shell 550 - 5 排孔",
     material: "Thép hàn",
     spec: "Dòng 550, 5 hàng lỗ",
@@ -79,7 +79,7 @@ const products = [
   {
     id: "lo-550-5-thep-o-lan",
     category: "Lô con lăn",
-    name: "Lô 550",
+    name: "Lô con lăn 550",
     code: "Roller Shell 550 - 5 排孔",
     material: "Thép ổ lăn",
     spec: "Dòng 550, 5 hàng lỗ",
@@ -90,7 +90,7 @@ const products = [
   {
     id: "lo-550-6-thep-o-lan",
     category: "Lô con lăn",
-    name: "Lô 550",
+    name: "Lô con lăn 550 - 6 hàng lỗ",
     code: "Roller Shell 550 - 6排孔",
     material: "Thép ổ lăn",
     spec: "Dòng 550, 6 hàng lỗ",
@@ -101,7 +101,7 @@ const products = [
   {
     id: "lo-550-6-thep-han",
     category: "Lô con lăn",
-    name: "Lô 550",
+    name: "Lô con lăn 550 - 6 hàng lỗ",
     code: "Roller Shell 550 - 6 排孔",
     material: "Thép hàn",
     spec: "Dòng 550, 6 hàng lỗ",
@@ -112,7 +112,7 @@ const products = [
   {
     id: "lo-680-thep-o-lan",
     category: "Lô con lăn",
-    name: "Lô 680",
+    name: "Lô con lăn 680",
     code: "Roller Shell 680",
     material: "Thép ổ lăn",
     spec: "Dòng 680",
