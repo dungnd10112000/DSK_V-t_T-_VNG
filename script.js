@@ -382,9 +382,12 @@ function handleInternalNav() {
 window.addEventListener("hashchange", handleInternalNav);
 
 function highlightActiveNav() {
-  const currentPath = window.location.pathname.split("/").pop() || "index.html";
+  // Chuẩn hóa: bỏ phần thư mục, bỏ đuôi .html, coi "index" như trang chủ ("")
+  const normalize = (p) =>
+    p.replace(/^.*\//, "").replace(/\.html$/, "").replace(/^index$/, "");
+  const currentPath = normalize(window.location.pathname);
   document.querySelectorAll(".main-nav a").forEach((link) => {
-    const href = link.getAttribute("href");
+    const href = normalize(link.getAttribute("href"));
     if (href === currentPath) {
       link.classList.add("active-nav");
     } else {
